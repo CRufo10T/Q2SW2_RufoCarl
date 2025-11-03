@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.7.3/core.css"/>
+    <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Seatwork 2</title>
+    </head>
+    <body
+    <div class="col-md-3">
+<h1>Student Grade Calculator</h1>
+<form>
+<label for="first-name"> Enter First Name:</label>
+<input id="first-name" type="text" />
+ 
+<label for="last-name"> Enter Last Name:</label>
+<input id="last-name" type="text" />
+<br><br>
+ </form>
+<h2>Enter your Grades:</h2>
+<form>
+<label for="science">Science:</label>
+<input id="science" type="number" /><br>
+
+<label for="ss">Social Studies:</label>
+<input id="ss" type="number" /><br>
+
+<label for="english">English:</label>
+<input id="english" type="number" /><br>
+
+<label for="filipino">Filipino:</label>
+<input id="filipino" type="number" /><br>
+
+<label for="tle">TLE:</label>
+<input id="tle" type="number" /><br>
+
+<label for="ve">Values Education:</label>
+<input id="ve" type="number" /><br>
+</form>
+    <button id="submit-btn" py-click="give">Generate Message</button>
+
+    <div id="output"></div>
+
+    <py-script src="main.py"></py-script>
+
+    </div>
+    </body>
+    </html>
