@@ -1,0 +1,16 @@
+.navbar-brand img{
+	width: 50px;
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+body{
+    background-color: #44CF6C;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+form {
+  text-align: center;
+}
