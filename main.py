@@ -39,8 +39,9 @@ def give(e):
 
 if average > 75:
         display(f'You passed', target='output')
-    else:
+else:
         display(f'You failed', target='output')  
+
 
 
 
