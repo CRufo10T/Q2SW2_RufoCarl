@@ -37,5 +37,11 @@ def give(e):
 
     display(f"General Weighted Average: {average}", target="output")
 
+if average > 75:
+        display(f'You passed', target='output')
+    else:
+        display(f'You failed', target='output')  
+
+
 
 
