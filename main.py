@@ -36,11 +36,11 @@ def give(e):
     display(f"{subjects[5]}: {VE_score}", target="output")
 
     display(f"General Weighted Average: {average}", target="output")
+        if average > 75:
+        display("You passed", target="output")
+    else:
+        display("You failed", target="output")
 
-if average > 75:
-        display(f'You passed', target='output')
-else:
-        display(f'You failed', target='output')  
 
 
 
